@@ -1,0 +1,55 @@
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.deps.json
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.runtimeconfig.json
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.runtimeconfig.dev.json
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.dll
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.pdb
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.csprojResolveAssemblyReference.cache
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.csproj.CoreCompileInputs.cache
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.AssemblyInfoInputs.cache
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.AssemblyInfo.cs
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.dll
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.pdb
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2)\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.deps.json
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2)\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.runtimeconfig.json
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2)\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.runtimeconfig.dev.json
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2)\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.dll
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2)\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.pdb
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2)\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.csprojResolveAssemblyReference.cache
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2)\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.csproj.CoreCompileInputs.cache
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2)\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.AssemblyInfoInputs.cache
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2)\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.AssemblyInfo.cs
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2)\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.dll
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2)\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.pdb
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2) - Copy\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.deps.json
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2) - Copy\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.runtimeconfig.json
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2) - Copy\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.runtimeconfig.dev.json
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2) - Copy\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.dll
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2) - Copy\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.pdb
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.csprojResolveAssemblyReference.cache
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.csproj.CoreCompileInputs.cache
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.AssemblyInfoInputs.cache
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.AssemblyInfo.cs
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.dll
+C:\Users\Fabio\source\repos\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.pdb
+C:\Users\Fabio\Desktop\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.deps.json
+C:\Users\Fabio\Desktop\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.runtimeconfig.json
+C:\Users\Fabio\Desktop\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.runtimeconfig.dev.json
+C:\Users\Fabio\Desktop\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.dll
+C:\Users\Fabio\Desktop\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.pdb
+C:\Users\Fabio\Desktop\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.csprojAssemblyReference.cache
+C:\Users\Fabio\Desktop\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.csproj.CoreCompileInputs.cache
+C:\Users\Fabio\Desktop\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.AssemblyInfoInputs.cache
+C:\Users\Fabio\Desktop\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.AssemblyInfo.cs
+C:\Users\Fabio\Desktop\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.dll
+C:\Users\Fabio\Desktop\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.pdb
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.deps.json
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.runtimeconfig.json
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.runtimeconfig.dev.json
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.dll
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\bin\Debug\netcoreapp1.1\WebCoursework.pdb
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.csprojAssemblyReference.cache
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.csproj.CoreCompileInputs.cache
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.AssemblyInfoInputs.cache
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.AssemblyInfo.cs
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.dll
+C:\Users\Fabio\source\repos\WebCoursework\WebCoursework - Copy (2) - Copy\WebCoursework\obj\Debug\netcoreapp1.1\WebCoursework.pdb

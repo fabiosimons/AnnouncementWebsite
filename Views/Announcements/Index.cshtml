@@ -1,0 +1,36 @@
+@model IEnumerable<WebCoursework.Models.Announcement>
+
+@{
+    ViewData["Title"] = "Announcements";
+}
+@if (User.IsInRole("Staff"))
+{
+<div class="ABtnContainer">
+<a id="AButton" asp-action="Create">Create New Announcement</a>
+    </div>
+}
+@foreach (var item in Model)
+{
+    <div class="AnnouncementList">
+        <div>
+            @if (User.IsInRole("Staff"))
+            {
+                <a id="editDel" asp-action="Delete" asp-route-id="@item.AnnouncementId">Delete</a>
+                <a id="editDel" asp-action="Edit" asp-route-id="@item.AnnouncementId">Edit</a>
+            }
+            
+            <h2 id="Atitle">   @Html.DisplayFor(modelItem => item.Title)</h2>
+            
+        </div>
+        <div id="Atime">
+            Posted by: @Html.DisplayFor(modelItem => item.FirstName) @Html.DisplayFor(modelItem => item.Lastname) at @Html.DisplayFor(modelItem => item.Time)
+        </div>
+
+            <div>
+            <div id="Amessage"> @Html.DisplayFor(modelItem => item.Message)</div>
+                <text id="AViews">Views:    @Html.DisplayFor(modelItem => item.Views)</text> 
+                <a  id="openAnnouncements" asp-action="Details" asp-route-id="@item.AnnouncementId">Open Announcement</a>
+            </div>
+
+        </div>
+}   

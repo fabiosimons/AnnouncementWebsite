@@ -1,0 +1,9 @@
+﻿@model WebCoursework.ViewModels.UserManagementAddRoleViewModel
+
+    <h3> Add Role For @Model.Email</h3>
+<div asp-validation-summary="All"></div>
+<form asp-controller="UserManagement" asp-action="AddRole">
+    <input asp-for="UserId" type="hidden"/>
+    <select asp-for="NewRole" asp-items="Model.Roles"></select>
+    <input type="submit" value="Add Role" />
+</form>

@@ -1,0 +1,38 @@
+﻿@model WebCoursework.ViewModels.LoginViewModel
+    <html class="backgroundImage" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <form method="post" asp-controller="Account" asp-action="Login">
+        
+        
+        <div class="centered-RegLogin">
+            <div asp-validation-summary="All">
+
+            </div>
+            <br />
+            <div>
+                <label asp-for="Email"></label>
+                <input id="inputWidth" asp-for="Email" />
+                <span asp-validation-for="Email"></span>
+            </div>
+            <div>
+                <label asp-for="Password"></label>
+                <input id="inputWidth" asp-for="Password" />
+                <span asp-validation-for="Password"></span>
+            </div>
+            <div class="RememberMe">
+                <label asp-for="RememberMe"></label>
+                <input asp-for="RememberMe" />
+                <span asp-validation-for="RememberMe"></span>
+            </div>
+            <input class="LoginButton" type="submit" value="Login" />
+            <p>Don't have an account? <a asp-action="Register">Sign Up</a></p>
+        </div>
+            
+</form>
+</body>
+</html>
+
+    

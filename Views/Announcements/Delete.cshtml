@@ -1,0 +1,28 @@
+@model WebCoursework.Models.Announcement
+
+@{
+    ViewData["Title"] = "Delete Announcement";
+}
+
+<div class="ADelHeader">
+    <h2>Are you sure you want to delete this? <a asp-action="Index"> No, Go Back </a> </h2>
+    
+</div>
+<div>
+    <div style="margin-top:10px;" class="CreateAnnouncementBox">
+        <input type="hidden" asp-for="AnnouncementId" />
+        <div id="AnnTitle">
+            @Html.DisplayFor(model => model.Title)
+        </div>
+        <br />
+        <div id="AnnMessage">
+            @Html.DisplayFor(model => model.Message)
+        </div>
+        </div>
+        <form asp-action="Delete">
+            <div class="ABtnContainer">
+                <input id="AButton" type="submit" value="Delete" class="btn btn-default" />
+            </div>
+        </form>
+        
+

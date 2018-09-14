@@ -1,0 +1,32 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@using WebCoursework.Models;
+
+@model WebCoursework.ViewModels.UserManagementIndexViewModel
+@inject UserManager<ApplicationUser> userManager
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+
+    @foreach (var user in Model.Users)
+    {
+    <div class="memberContainer">
+       
+        <div id="memberInfo">
+            <img id="img" src="~/images/memberIcon.png" />
+            <div id="role">@(string.Join(",", await userManager.GetRolesAsync(user)))</div>
+            <p><b>Email:</b> @user.Email </p>
+            <p><b>First Name:</b> @user.FirstName</p>
+            <p><b>Surname:</b> @user.LastName
+               <a style="float:right;" asp-controller="UserManagement" asp-action="AddRole" asp-route-id="@user.Id">Add Role</a>
+            </p>
+            
+        </div>
+
+    </div>
+        }
+    
+</body>
+</html>

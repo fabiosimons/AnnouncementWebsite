@@ -1,0 +1,44 @@
+@model WebCoursework.ViewModels.AnnouncementDetailsViewModel
+
+@{
+    ViewData["Title"] = "Announcement";
+}
+
+<div style="margin-top:10px;" class="AnnouncementList">
+    <div>
+        <h2 id="Atitle">  @Html.DisplayFor(model => model.Announcement.Title)</h2>
+    </div>
+    <div id="Atime">
+        Posted by: @Html.DisplayFor(model => model.Announcement.FirstName) @Html.DisplayFor(model => model.Announcement.Lastname) at @Html.DisplayFor(model => model.Announcement.Time)
+    </div>
+    <div>
+        <div id="Amessage"> @Html.DisplayFor(model => model.Announcement.Message)</div>
+        <div id="AViews">Views: @Html.DisplayFor(model => model.Announcement.Views)</div>
+    </div>
+</div>
+
+@if (User.Identity.IsAuthenticated)
+{
+<form asp-action="Details">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div id="commentBox">
+        <input id="commentBoxWidth" asp-for="Message" />
+        <input id="AButton" type="submit" value="Send" class="btn btn-default" />
+    </div>
+    <span asp-validation-for="Message"></span>
+    <input type="hidden" asp-for="AnnouncementId" value="@Model.Announcement.AnnouncementId" />
+</form>
+
+}
+<div class="comments">
+    @foreach (var item in Model.Comments)
+    {
+        <div class="commentContainer">
+            <div id="commenter"> @Html.DisplayFor(modelItem => item.FirstName) @Html.DisplayFor(modelItem => item.LastName)</div>
+            @Html.DisplayFor(modelItem => item.Message)
+
+            <br />
+        </div>
+    }
+</div>
+

@@ -1,0 +1,286 @@
+﻿body {
+    margin:0;
+}
+html {
+    background-color: #d7d7d7;
+}
+
+/*NAVIGATION BAR*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #993333;
+    width: 100%;
+    top: 0;
+}
+li {
+    float: left;
+}
+li a {
+        display: block;
+        text-align: center;
+        font-size:1.2em;
+        color: white;
+        font: Lato, serif;
+        padding: 15px 15px;
+        text-decoration: none;
+    }
+li a:hover {
+        opacity: 0.5;
+    }
+
+/*Login PAGE CSS*/
+.centered-RegLogin {
+    margin: 0 auto;
+    margin-top:5%;
+    background-color: #D7D7D7;
+    width: 25%;
+    align-content:center;
+    padding: 5px;
+    opacity: 0.95;
+    border: 1px solid #993333;
+    min-width:300px;
+}
+.centered-RegLogin span {
+    font-size:0.8em;
+}
+#inputWidth {
+        margin: 2% 7% 2% 5%;
+        padding: 1% 0 1% 0;
+        width: 87%;
+    }
+.centered-RegLogin label{
+    text-align: left;
+    margin: 5%;
+    font-weight:400;
+    color: #993333;
+}
+.centered-RegLogin p {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1% 0 1% 0;
+    font-weight: 400;
+}
+.LoginButton {
+   background-color:#993333;
+   margin: 2% 7% 2% 5%;
+   text-align: center;
+   width:87%;
+   padding:2%;
+   color:white;
+   border-radius:6px;
+   border:none;
+}
+.LoginButton:hover{
+    background-color:#996666;
+}
+.RememberMe {
+    padding: 0;
+    margin-top: 2%;
+    margin-left:3%;
+    margin-bottom: 2%;
+    display:inline-block;
+    width: 50%;
+}
+.backgroundImage{
+    background: url(../images/WebDevBackgroundPic.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*404 page*/
+#tableflip{
+    font-weight:bold;
+    font-size: 100px;
+    text-align:center;
+    color: #993333;
+}
+#PageNotFoundtitle {
+    color: #993333;
+    text-align:center;
+    font-size: 50px;
+}
+
+/*Announcement Page*/
+.ABtnContainer{
+    margin:0 auto;
+    width:50%;
+    min-height:50px;
+    min-width:300px;
+    display:block;
+    align-content:center;
+    text-align:center;
+    margin-top:2%;
+}
+#AButton {
+    color:white;
+    background-color:#993333;
+    border-radius:6px;
+    padding: 1% 10% 1% 10%;
+    text-decoration:none;
+}
+#AButton:hover{
+    opacity:0.85;
+}
+.AnnouncementList {
+    display: block;
+    width: 50%;
+    min-width: 300px;
+    min-height: 100px;
+    background-color: whitesmoke;
+    border: 1px solid #993333;
+    margin: 0 auto;
+    margin-top:5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top:1px;
+    align-content: center;
+}
+#Atitle{
+    text-align:left;
+    font-weight: bold;
+    font-size:28px;
+    color: #993333;
+    padding:0;
+    margin:0;
+    margin-top:0;
+    margin-bottom: 5px;
+}
+#Amessage {
+    text-align: left;
+    color: #993333;
+    padding:0;
+    margin-bottom:10px;
+    word-wrap:break-word;
+}
+#Atime{
+    text-align:left;
+    font-style:italic;
+    color:gray;
+    font-size:0.75em;
+    margin-bottom:10px;
+}
+#editDel{
+    float:right;
+    padding-top:1%;
+    margin-right:10px;
+}
+#AViews {
+    text-align:left;
+    padding: 1%;
+    font-size:0.85em;
+}
+#openAnnouncements{
+    float:right;
+    padding-bottom: 2%;
+}
+
+/*Comment Page*/
+.commentContainer {
+    display: block;
+    width: 50%;
+    min-width: 300px;
+    min-height: 30px;
+    background-color: whitesmoke;
+    border: 1px solid #993333;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 1px;
+    align-content: center;
+}
+#commenter{
+    text-align:left;
+    font-weight:bold;
+    color:#993333;
+}
+#commentBox {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 50%;
+    align-content: center;
+    padding: 5px;
+    min-width: 500px;
+    min-height: 40px;
+    display: block; 
+    align-items:center;
+    text-align:center;
+ 
+}
+#commentBoxWidth{
+    width:65%;
+    padding:1%;
+}
+/*UserManagerment*/
+.memberContainer {
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: white;
+    width: 25%;
+    align-content: center;
+    padding: 5px;
+    opacity: 0.95;
+    border: 1px solid #993333;
+    min-width: 450px;
+    min-height:110px;
+    display:block;
+}
+#memberInfo{
+    text-align:left;
+    font-size:1em;
+}
+#memberInfo b{
+    color: #993333;
+}
+#memberInfo p{
+    margin-top:0;
+}
+#role{
+    color: #993333;
+    font-weight: bold;
+    text-align:right;
+}
+#img{
+    float:left;
+}
+
+/*Create Announcement*/
+.CreateAnnouncementBox {
+    display: block;
+    width: 40%;
+    min-width: 300px;
+    min-height: 100px;
+    background-color: whitesmoke;
+    border: 1px solid #993333;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    align-content: center;
+    word-wrap: break-word;
+}
+#AnnTitle {
+    text-align: left;
+    font-size: 2em;
+    color: #993333;
+    font-weight:bold;
+}
+#titlebox{
+    }
+/*Delete Announcement*/
+.ADelHeader {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 25%;
+    align-content: center;
+    padding: 5px;
+    min-width: 550px;
+    min-height: 110px;
+    display: block;
+    color:#993333;
+}
+#AnnMessage{
+    font-size:1.5em;
+}

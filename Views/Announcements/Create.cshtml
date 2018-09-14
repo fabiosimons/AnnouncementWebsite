@@ -1,0 +1,36 @@
+@model WebCoursework.Models.Announcement
+
+@{
+    ViewData["Title"] = "Create Announcement";
+}
+<form asp-action="Create">
+    <div class="CreateAnnouncementBox">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div id="titleBox">
+            <div id="AnnTitle">
+                <label asp-for="Title"></label>
+                <input id="inputWidth" asp-for="Title" />
+                <span asp-validation-for="Title"></span>
+            </div>
+        
+
+        <div id="AnnTitle">
+                <label asp-for="Message"></label>
+                <input id="inputWidth" asp-for="Message"/>
+                <span asp-validation-for="Message"></span>
+        </div>
+        <div class="ABtnContainer">
+            <input id="AButton" type="submit" value="Create" class="btn btn-default" />
+        </div>
+            </div>
+    <input type="hidden" value="1" asp-for="Views" class="form-control" />
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
